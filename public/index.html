@@ -5,12 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
     <title> socket.io </title>
 </head>
 
 <body>
 
     <h1>Socket</h1>
+
+    <div id="output_area"></div>
+    <input type="text" id="username" placeholder="username" name="username">
+    <input type="text" id="message" placeholder="message" name="message">
+    <br>
+    <button type="button" id="btn">Send</button>
+
+    <script src="chat.js"></script>
 
 </body>
 

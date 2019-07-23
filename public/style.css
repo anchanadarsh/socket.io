@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#output_area {
+    height: 600px;
+    width: 100%;
+    background-color: bisque;
+    border: 1px solid #c6af95;
+
+    color: saddlebrown;
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#btn {
+    padding: 10px 20px;
+    background-color: green;
+    font-size: 16px;
+    color: white;
+    border: 0;
+    margin-top: 20px;
+}
