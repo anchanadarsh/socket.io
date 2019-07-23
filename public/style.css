@@ -12,6 +12,13 @@ body {
     color: saddlebrown;
 }
 
+#userTyping {
+    display: block;
+    background-color: #000971;
+    color: white;
+    padding: 1px;
+}
+
 input {
     margin-top: 20px;
     padding: 10px;
