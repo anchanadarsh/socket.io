@@ -1,0 +1,25 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "description": "practicing socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anchanadarsh/socket.io.git"
+  },
+  "author": "adarsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anchanadarsh/socket.io/issues"
+  },
+  "homepage": "https://github.com/anchanadarsh/socket.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
