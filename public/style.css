@@ -4,7 +4,7 @@ body {
 }
 
 #output_area {
-    height: 600px;
+    height: 50vh;
     width: 100%;
     background-color: bisque;
     border: 1px solid #c6af95;
